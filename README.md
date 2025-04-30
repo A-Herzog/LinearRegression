@@ -6,14 +6,14 @@ Linear regression is a web service for calculating linear regression of sample v
 
 To use linear regression just go to
 
-**[a-herzog.github.io/LinRegression](https://a-herzog.github.io/LinRegression)**
+**[a-herzog.github.io/LinearRegression](https://a-herzog.github.io/LinearRegression)**
 
-![Website status](https://img.shields.io/website?url=https%3A%2F%2Fa-herzog.github.io%2FLinRegression%2F)
+![Website status](https://img.shields.io/website?url=https%3A%2F%2Fa-herzog.github.io%2FLinearRegression%2F)
 
 <!--
 You can also download linear regression as an offline usable Windows application:
 
-**[LinRegression.exe](https://github.com/A-Herzog/QC/releases/latest/download/LinRegression.exe)**
+**[LinearRegression.exe](https://github.com/A-Herzog/LinearRegression/releases/latest/download/LinearRegression.exe)**
 -->
 
 ## License
