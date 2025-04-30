@@ -1,0 +1,7 @@
+.vscode
+.tmp
+bin
+dist
+LinRegression.exe
+desktop-app/2_Sign.bat
+docs/inline_icon_source.png
