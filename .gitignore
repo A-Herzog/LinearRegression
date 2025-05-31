@@ -2,6 +2,6 @@
 .tmp
 bin
 dist
-LinRegression.exe
+LinearRegression.exe
 desktop-app/2_Sign.bat
 docs/inline_icon_source.png
