@@ -10,11 +10,10 @@ To use linear regression just go to
 
 ![Website status](https://img.shields.io/website?url=https%3A%2F%2Fa-herzog.github.io%2FLinearRegression%2F)
 
-<!--
-You can also download linear regression as an offline usable Windows application:
+You can also download linear regression as an offline usable application:
 
-**[LinearRegression.exe](https://github.com/A-Herzog/LinearRegression/releases/latest/download/LinearRegression.exe)**
--->
+* **[LinearRegression.exe](https://github.com/A-Herzog/LinearRegression/releases/latest/download/LinearRegression.exe)**
+* **[LinearRegression_Linux_MacOS.zip](https://github.com/A-Herzog/LinearRegression/releases/latest/download/LinearRegression_Linux_MacOS.zip)**
 
 ## License
 
