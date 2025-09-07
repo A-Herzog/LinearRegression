@@ -1,6 +1,8 @@
-# Lineare Regession / Linear regression
+# Lineare Regression / Linear regression
 
 Linear regression is a web service for calculating linear regression of sample values.
+
+[![Screenshot](Screenshot.png)](https://a-herzog.github.io/LinearRegression)
 
 ## Usage
 
@@ -17,7 +19,7 @@ You can also download linear regression as an offline usable application:
 
 ## License
 
-Lineare Regession / Linear regression is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Lineare Regression / Linear regression is licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 This product bundles some components licensed under different open source licenses, see:
 
@@ -25,10 +27,8 @@ This product bundles some components licensed under different open source licens
 - [**Bootstrap icons**](https://icons.getbootstrap.com): [MIT license](https://opensource.org/license/mit/)
 - [**Chart.js**](https://www.chartjs.org): [MIT license](https://opensource.org/license/mit/)
 
-<!--
 For building a desktop app from the Javascript code [**Neutralinojs**](https://neutralino.js.org/) under the
 [MIT license](https://opensource.org/license/mit/) is used.
--->
 
 ## Contact
 
