@@ -29,6 +29,7 @@ class LinRegessionGuessCard extends LinRegessionCard {
   #tdOptimalLine;
   #tdOptimalLineResiduum;
   #tdCorrelationCoefficient;
+  #tdCoefficientOfdetermination;
 
   /**
    * Constructor
@@ -41,6 +42,7 @@ class LinRegessionGuessCard extends LinRegessionCard {
     this.#tdOptimalLine=this._addTr(language.GUI.Guess.optimalLine+":","rgb(0,140,79)");
     this.#tdOptimalLineResiduum=this._addTr(language.GUI.Guess.optimalLineResiduum+":","rgb(0,140,79)");
     this.#tdCorrelationCoefficient=this._addTr(language.GUI.Guess.correlationCoefficient+":","blue");
+    this.#tdCoefficientOfdetermination=this._addTr(language.GUI.Guess.coefficientOfdetermination+":","blue");
 
     this._addButton(language.GUI.Guess.buttonNew,"arrow-clockwise",_=>this.#generatePoints());
     this._addButton(language.GUI.Guess.buttonShowSolution,"check-circle",_=>this.#showOptimalLine());
@@ -63,6 +65,7 @@ class LinRegessionGuessCard extends LinRegessionCard {
     /* Calculate and output correlation coefficient */
     this._calcResults();
     this.#tdCorrelationCoefficient.innerHTML="r<sub>x,y</sub>="+this._correlationCoefficient.toLocaleString();
+    this.#tdCoefficientOfdetermination.innerHTML="&rho;<sup>2</sup>="+this._coefficientOfdetermination.toLocaleString();
 
     /* Output residuum of the optimal regression line */
     this.#tdOptimalLineResiduum.innerHTML=this._calcResiduum(this._optimalA,this._optimalB).toLocaleString();

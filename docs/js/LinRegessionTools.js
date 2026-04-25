@@ -146,7 +146,9 @@ class LinRegessionCard extends TwoColCard {
     const my=this._points.map(p=>p[1]).reduce((a,b)=>a+b)/this._points.length;
     const vx=this._points.map(p=>(p[0]-mx)**2).reduce((a,b)=>a+b)/(this._points.length-1);
     const vy=this._points.map(p=>(p[1]-my)**2).reduce((a,b)=>a+b)/(this._points.length-1);
-    this._correlationCoefficient=this._points.map(p=>(p[0]-mx)*(p[1]-my)).reduce((a,b)=>a+b)/((this._points.length-1)*Math.sqrt(vx)*Math.sqrt(vy));
+    const vxy=this._points.map(p=>(p[0]-mx)*(p[1]-my)).reduce((a,b)=>a+b)/(this._points.length-1);
+    this._correlationCoefficient=(vx>0 && vy>0)?(vxy/(Math.sqrt(vx)*Math.sqrt(vy))):0;
+    this._coefficientOfdetermination=this._correlationCoefficient**2;
 
     /* Calculate optimal regression line */
     this._optimalA=(this._points.map(p=>p[0]*p[1]).reduce((a,b)=>a+b)-this._points.length*mx*my)/((this._points.length-1)*vx);

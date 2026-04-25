@@ -26,6 +26,7 @@ class LinRegessionShowCard extends LinRegessionCard {
   #tdUserLine;
   #tdUserLineResiduum;
   #tdCorrelationCoefficient;
+  #tdCoefficientOfdetermination;
 
   /**
    * Constructor
@@ -36,6 +37,7 @@ class LinRegessionShowCard extends LinRegessionCard {
     this.#tdUserLine=this._addTr(language.GUI.Show.userLine+":","rgb(0,140,79)");
     this.#tdUserLineResiduum=this._addTr(language.GUI.Show.userLineResiduum+":","rgb(0,140,79)");
     this.#tdCorrelationCoefficient=this._addTr(language.GUI.Show.correlationCoefficient+":","blue");
+    this.#tdCoefficientOfdetermination=this._addTr(language.GUI.Guess.coefficientOfdetermination+":","blue");
 
     this._addButton(language.GUI.Show.buttonNew,"trash",_=>this.#clearPoints());
 
@@ -59,6 +61,7 @@ class LinRegessionShowCard extends LinRegessionCard {
       /* Calculate and output correlation coefficient */
       this._calcResults();
       this.#tdCorrelationCoefficient.innerHTML="r<sub>x,y</sub>="+this._correlationCoefficient.toLocaleString();
+      this.#tdCoefficientOfdetermination.innerHTML="&rho;<sup>2</sup>="+this._coefficientOfdetermination.toLocaleString();
 
       /* Output residuum of the optimal regression line */
       if (this._optimalB>=0) {

@@ -80,6 +80,7 @@ lang.GUI.Guess.userLineResiduum="Residuensumme der Geraden";
 lang.GUI.Guess.optimalLine="Optimale Gerade";
 lang.GUI.Guess.optimalLineResiduum="Minimale Residuensumme";
 lang.GUI.Guess.correlationCoefficient="Empirischer Korrelationskoeffizient";
+lang.GUI.Guess.coefficientOfdetermination="Bestimmtheitsmaß";
 lang.GUI.Guess.buttonNew="Neue Punkte";
 lang.GUI.Guess.buttonShowSolution="Lösung anzeigen";
 
@@ -156,6 +157,7 @@ lang.GUI.Guess.userLineResiduum="Residual sum of the line";
 lang.GUI.Guess.optimalLine="Optimal line";
 lang.GUI.Guess.optimalLineResiduum="Minimum residual sum";
 lang.GUI.Guess.correlationCoefficient="Empirical correlation coefficient";
+lang.GUI.Guess.coefficientOfdetermination="Coefficient of determination";
 lang.GUI.Guess.buttonNew="New points";
 lang.GUI.Guess.buttonShowSolution="Show solution";
 
